@@ -1,6 +1,4 @@
-Expression projectName is undefined on line 1, column 3 in Templates/Other/README.md.
+beautystack
 ==============
 
-This is Expression projectName is undefined on line 4, column 11 in Templates/Other/README.md..
-
-Expression description is undefined on line 6, column 3 in Templates/Other/README.md.
+![](https://github.com/bagdonas/beautystack/blob/master/docs/images/example1.png)
