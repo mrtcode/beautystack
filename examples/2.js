@@ -28,7 +28,8 @@ var config = {
   columns: 4,
   width: 200,
   height: 140,
-  rotation: 30
+  rotation: 30,
+  //background: 'white'
 };
 
 bs.on('progress', function(data) {

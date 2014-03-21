@@ -7,6 +7,7 @@ var config = {
   source: 'images/',
   output: 'output/example1.png',
   columns: 5,
+  //background: 'white',
 };
 
 bs.on('progress', function(data) {
