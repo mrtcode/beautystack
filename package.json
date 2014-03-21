@@ -1,0 +1,27 @@
+{
+   "name": "beautystack",
+   "description": "Easy to use module to make beautiful stack of photos",
+   "version": "0.0.0",
+   "author": "Martynas Bagdonas",
+   "homepage": "https://github.com/bagdonas/beautystack",
+   "repository": {
+      "type": "git",
+      "url": "git://github.com/bagdonas/beautystack.git"
+   },
+   "licenses": [
+      {
+         "type": "MIT",
+         "url": "https://github.com/bagdonas/beautystack/LICENSE"
+      }
+   ],
+   "main": "lib/beautystack.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+      "photos",
+      "images",
+      "imagemagick",
+      "polaroid"
+   ]
+}
