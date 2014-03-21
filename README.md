@@ -1,4 +1,4 @@
 beautystack
 ==============
 
-![](https://github.com/bagdonas/beautystack/blob/master/docs/images/example1.png)
+![](https://raw.githubusercontent.com/bagdonas/beautystack/master/docs/images/example1.png)
