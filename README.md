@@ -7,6 +7,22 @@ Node.js module to make beautiful stacks of photos.
 ##Features
 
 ##Installation
+For this module only [ImageMagick](http://www.imagemagick.org/) is needed to be installed.
+
+###For Ubuntu and Debian
+    apt-get install imagemagick
+
+###For Mac OS X
+    brew install imagemagick
+
+###Instalation of module
+via [npm](http://www.npmjs.org/)
+
+    npm install beautystack
+    
+or clone repo
+
+    npm install git://github.com/bagdonas/beautystack.git
 
 ##Getting Started
 ```js
