@@ -1,6 +1,6 @@
 #Beautystack.js
 
-A node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick polaroid](http://www.imagemagick.org/Usage/transform/#polaroid) feature and gives you simple and node.js ready solution to generate images likes this
+A node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick polaroid](http://www.imagemagick.org/Usage/transform/#polaroid) feature and gives you simple and node.js ready solution to generate images likes this:
 
 ![](https://raw.githubusercontent.com/bagdonas/beautystack/master/docs/images/example1.jpg)
 
@@ -24,16 +24,16 @@ For this module only [ImageMagick](http://www.imagemagick.org/) and [jhead](http
     brew install jhead
 
 ###Instalation of module
-Via [npm](http://www.npmjs.org/)
+Via [npm](http://www.npmjs.org/):
 
     npm install beautystack
     
-Or clone repo
+Or clone repo:
 
     npm install git://github.com/bagdonas/beautystack.git
 
 ##Getting Started
-The bare minimum code needed to start conversion
+The bare minimum code needed to start conversion:
 ```js
 var beautystack = require('beautystack');
 
@@ -52,13 +52,13 @@ bs.process(config, function(err, data) {
   console.log('Photos processed! Check out your new beautiful stack of photos: ' + data.output);
 });
 ```
-To track the progress of conversion
+To track the progress of conversion:
 ```js
 bs.on('progress', function(data) {
   console.log("Percent: " + data.percent);
 });
 ```
-More configuration examples
+More configuration examples:
 ```js
 var config = {
   source: [ //now source is the list of image paths, in example below it was directy
@@ -85,7 +85,7 @@ var config = {
 ##Author
 Martynas Bagdonas
 
-Check out some other interesting projects on my [blog](http://martynas.bagdonas.net/)
+Check out some other interesting projects on my [blog](http://martynas.bagdonas.net/).
 
 ##License
 MIT
