@@ -39,7 +39,12 @@ var beautystack = require('beautystack');
 
 var bs = new beautystack;
 
-bs.process({source: 'images/', output: 'output/example1.png',}, function(err, data) {
+var config = {
+  source: 'images/',
+  output: 'output/example1.png',
+};
+
+bs.process(config, function(err, data) {
   if (err) {
     console.log('Beautystack processing error: ' + err);
     return;
@@ -53,5 +58,26 @@ bs.on('progress', function(data) {
   console.log("Percent: " + data.percent);
 });
 ```
+More configuration examples
+```js
+var config = {
+  source: [ //now source is the list of image paths, in example below it was directy
+    'images/Yellow-leaf.jpg',
+    'images/Winter-wallpaper-by-cool-wallpapers-15.jpg',
+    'images/winter-accident.jpg',
+    'images/wallpapers-nature-animals.jpg',
+    'images/Spring-starts.jpg'
+  ],
+  output: 'output/example1.png', //where to put file after conversion, also you can choose file type by changing extension
+  width: 200, //width of all those small images
+  height: 140, //height
+  columns: 4, //columns in of small images in output image
+  rotation: 30, //max rotation angle in degrees, it varties randomly between minus and plus of this value
+  background: 'transparent', //could be some color like 'white', 'red' or image ***STILL WORKING ON THIS
+  quality: 96, //quality of output image
+  
+};
+```
+**Important.** Keep attention when selecting output file type and background, because for example jpeg doesn't supports transparency. Most other formats supports it.
 
 
