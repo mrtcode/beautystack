@@ -6,7 +6,7 @@ A node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick 
 
 ##Features
 - Supports background color, image or trancparency
-- Has mansy customization parameters like spacing, rotation, quality..
+- Has many customization parameters like spacing, rotation, quality
 - Supports directory or array of files for input
 - Works asynchroniously, supports simultanious conversions of images
 - Has event for tracking progress of conversion in percents
