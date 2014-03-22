@@ -24,11 +24,11 @@ For this module only [ImageMagick](http://www.imagemagick.org/) and [jhead](http
     brew install jhead
 
 ###Instalation of module
-via [npm](http://www.npmjs.org/)
+Via [npm](http://www.npmjs.org/)
 
     npm install beautystack
     
-or clone repo
+Or clone repo
 
     npm install git://github.com/bagdonas/beautystack.git
 
@@ -52,7 +52,7 @@ bs.process(config, function(err, data) {
   console.log('Photos processed! Check out your new beautiful stack of photos: ' + data.output);
 });
 ```
-To track progress of conversion
+To track the progress of conversion
 ```js
 bs.on('progress', function(data) {
   console.log("Percent: " + data.percent);
