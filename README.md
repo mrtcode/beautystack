@@ -83,7 +83,10 @@ var config = {
 ##Todo
 
 ##Author
-[Martynas Bagdonas](http://martynas.bagdonas.net/)
+Martynas Bagdonas
 
+Check out some other interesting projects on my [blog](http://martynas.bagdonas.net/)
 
+##License
+MIT
 
