@@ -61,7 +61,7 @@ bs.on('progress', function(data) {
 More configuration examples:
 ```js
 var config = {
-  source: [ //now source is the list of image paths, in example below it was directy
+  source: [ //now source is the list of image paths, in example above it was directory
     'images/Yellow-leaf.jpg',
     'images/Winter-wallpaper-by-cool-wallpapers-15.jpg',
     'images/winter-accident.jpg',
