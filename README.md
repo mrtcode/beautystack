@@ -1,6 +1,6 @@
 #Beautystack.js
 
-Node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick polaroid](http://www.imagemagick.org/Usage/transform/#polaroid) feature and gives you simple and node.js ready solution to make images likes this
+A node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick polaroid](http://www.imagemagick.org/Usage/transform/#polaroid) feature and gives you simple and node.js ready solution to generate images likes this
 
 ![](https://raw.githubusercontent.com/bagdonas/beautystack/master/docs/images/example1.jpg)
 
@@ -10,7 +10,7 @@ Node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick po
 - Supports directory or array of files for input
 - Works asynchroniously, supports simultanious conversions of images
 - Has event for tracking progress of conversion in percents
-- With jhead makes loseless autorotations of images
+- Makes loseless autorotations of original images
 
 ##Installation
 For this module only [ImageMagick](http://www.imagemagick.org/) and [jhead](http://www.sentex.net/~mwandel/jhead/) are needed to be installed.
@@ -79,5 +79,11 @@ var config = {
 };
 ```
 **Important.** Keep attention when selecting output file type and background, because for example *jpeg* doesn't support transparency. Most other formats supports it.
+
+##Todo
+
+##Author
+[Martynas Bagdonas](http://martynas.bagdonas.net/)
+
 
 
