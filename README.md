@@ -1,6 +1,6 @@
 #Beautystack.js
 
-A node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick polaroid](http://www.imagemagick.org/Usage/transform/#polaroid) feature and gives you simple and node.js ready solution to generate images likes this:
+A node.js module to make *beautiful stacks of photos*. It utilizes [Imagemagick polaroid](http://www.imagemagick.org/Usage/transform/#polaroid) feature and gives you simple and node.js ready solution to generate images stacks like this:
 
 ![](https://raw.githubusercontent.com/bagdonas/beautystack/master/docs/images/example1.jpg)
 
