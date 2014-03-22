@@ -75,7 +75,6 @@ var config = {
   rotation: 30, //max rotation angle in degrees, it varties randomly between minus and plus of this value
   background: 'transparent', //could be some color like 'white', 'red' or image ***STILL WORKING ON THIS
   quality: 96 //quality of output image
-  
 };
 ```
 **Important.** Keep attention when selecting output file type and background, because for example *jpeg* doesn't support transparency. Most other formats supports it.
