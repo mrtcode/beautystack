@@ -81,6 +81,15 @@ var config = {
 **Important.** Keep attention when selecting output file type and background, because for example *jpeg* doesn't support transparency. Most other formats supports it.
 
 ##Todo
+- Make everything faster
+- Add more options to customize a stack
+- Fully implement all kinds of background types
+- Make it work with buffers
+- Better control 'the flow' of module, because image conversions is really strainful for cpu
+ - Limit simultanious conversions respecting the speed of computer or VM
+ - Better utilize multicore systems
+ - Monitor server load and schedule the conversation task accordingly
+- Use cluster
 
 ##Author
 Martynas Bagdonas
