@@ -74,7 +74,7 @@ var config = {
   columns: 4, //columns of small images in output image
   rotation: 30, //max rotation angle in degrees, it varties randomly between minus and plus of this value
   background: 'transparent', //could be some color like 'white', 'red' or image ***STILL WORKING ON THIS
-  quality: 96, //quality of output image
+  quality: 96 //quality of output image
   
 };
 ```
