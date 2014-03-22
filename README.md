@@ -88,7 +88,7 @@ var config = {
  - Limit simultanious conversions respecting the speed of computer or VM
  - Better utilize multicore systems
  - Monitor server load and schedule conversation tasks accordingly
-- Use cluster
+- Distribute conversion tasks on multiple servers
 
 ##Author
 Martynas Bagdonas
