@@ -88,7 +88,7 @@ var config = {
 - Better control 'the flow' of module, because image conversions is really strainful for cpu
  - Limit simultanious conversions respecting the speed of computer or VM
  - Better utilize multicore systems
- - Monitor server load and schedule the conversation task accordingly
+ - Monitor server load and schedule conversation tasks accordingly
 - Use cluster
 
 ##Author
